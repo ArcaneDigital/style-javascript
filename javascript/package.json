@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arcane",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.1",
   "description": "Arcane Digitals ESLint config",
   "main": "index.js",
   "scripts": {
