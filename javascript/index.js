@@ -1,11 +1,9 @@
 module.exports = {
-    'extends': ['airbnb'].map(require.resolve),
-    'rules': {
-        'plugins': ['prettier'],
-        'rules': {
-            'indent': ['error', 4],
-            'max-len': ['error', { 'code': 80 }],
-            'prettier/prettier': ['error'],
-        },
+    extends: ['eslint-config-airbnb'].map(require.resolve),
+    plugins: ['prettier'],
+    rules: {
+        indent: ['error', 4],
+        'max-len': ['error', { code: 80 }],
+        'prettier/prettier': ['error'],
     },
 };
