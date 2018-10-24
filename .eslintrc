@@ -1,3 +1,7 @@
 {
-  "extends": "arcane"
+  "extends": "arcane",
+  "env": {
+    "amd": true,
+    "node": true
+  }
 }

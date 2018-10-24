@@ -5,5 +5,6 @@ module.exports = {
         indent: ['error', 4],
         'max-len': ['error', { code: 80 }],
         'prettier/prettier': ['error'],
+        'arrow-parens': ['error', 'as-needed'],
     },
 };
