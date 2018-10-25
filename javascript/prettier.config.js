@@ -1,13 +1,13 @@
 module.exports = {
     overrides: [
         {
-            files: ['.json', '.eslintrc'],
+            files: ['*.json', '.eslintrc'],
             options: {
                 tabWidth: 2,
             },
         },
         {
-            files: ['.js', '.jsx'],
+            files: ['*.js', '*.jsx'],
             options: {
                 singleQuote: true,
                 tabWidth: 4,
