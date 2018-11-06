@@ -6,5 +6,11 @@ module.exports = {
         'max-len': ['error', { code: 80 }],
         'prettier/prettier': ['error'],
         'arrow-parens': ['error', 'as-needed'],
+        'space-before-function-paren': [
+            'error',
+            {
+                anonymous: 'never',
+            },
+        ],
     },
 };
