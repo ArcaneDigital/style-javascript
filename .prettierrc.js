@@ -1,5 +1,5 @@
 module.exports = {
-    ...require.resolve('prettier.config.js', {
-        paths: ['./javascript', './css'],
-    }),
+  ...require.resolve("prettier.config.js", {
+    paths: ["./javascript", "./css"]
+  })
 };
