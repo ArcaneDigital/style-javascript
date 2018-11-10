@@ -2,6 +2,8 @@ module.exports = {
     extends: ['eslint-config-airbnb'].map(require.resolve),
     plugins: ['prettier'],
     rules: {
+        'arrow-parens': ['error', 'as-needed'],
+        'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
         indent: [
             'error',
             4,
@@ -42,6 +44,7 @@ module.exports = {
                 ignoreComments: false,
             },
         ],
+        'implicit-arrow-linebreak': ['warn', 'beside'],
         'max-len': [
             'error',
             80,
@@ -55,13 +58,6 @@ module.exports = {
             },
         ],
         'prettier/prettier': ['error'],
-        'arrow-parens': [
-            'error',
-            'as-needed',
-            {
-                requireForBlockBody: true,
-            },
-        ],
         'space-before-function-paren': [
             'error',
             {
